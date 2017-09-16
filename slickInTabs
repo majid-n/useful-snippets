@@ -1,0 +1,5 @@
+//Fix Positioning Problems of Slick Sliders Inside Tabs
+
+  $('a[data-toggle="tab"]').on('shown.bs.tab', function (e){
+      $('slickElement').slick('setPosition');
+  }); 
